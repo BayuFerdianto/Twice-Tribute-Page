@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lemonada:wght@700&display=swap");
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   padding-top: 70px;
-  background-color: #eee;
+  background-color: rgba(255, 255, 255, 0.678);
   margin: 0;
 }
 
@@ -30,7 +29,7 @@ nav ul li {
   margin: 0 20px;
 }
 
-nav ul li a{
+nav ul li a {
   color: white;
   text-decoration: none;
   font-weight: bold;
@@ -56,7 +55,6 @@ nav ul li a:hover {
 #main p {
   margin: 0;
   font-size: 5vw;
-  
 }
 
 #img-div {
@@ -71,15 +69,13 @@ nav ul li a:hover {
 
 #img-caption {
   margin-top: 10px;
-  font-size: .7em;
+  font-size: 0.7em;
 }
 
 #tribute-info {
   width: 600px;
   margin: 50px auto;
-  
 }
-
 
 #tribute-info h2 {
   text-align: center;
@@ -118,21 +114,20 @@ nav ul li a:hover {
   align-items: center;
   flex-direction: column-reverse;
   opacity: 0;
-  transition: .5s;
+  transition: 0.5s;
 }
 .album .album-over:hover {
   opacity: 1;
 }
 
 .release-data {
-  font-size: .8em;
+  font-size: 0.8em;
 }
 
 .album-name {
   font-weight: bold;
   margin-top: 5px;
   text-transform: uppercase;
-  
 }
 
 #videos {
